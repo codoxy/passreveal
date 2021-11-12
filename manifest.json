@@ -1,0 +1,26 @@
+{
+  "name": "Password Revealer",
+  "description": "Reveals all passwords on the page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_title": "Click to reveal or hide passwords",
+    "default_icon": {
+      "16": "/images/eye16.png",
+      "32": "/images/eye32.png",
+      "48": "/images/eye48.png",
+      "128": "/images/eye128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/eye16.png",
+    "32": "/images/eye32.png",
+    "48": "/images/eye48.png",
+    "128": "/images/eye128.png"
+  },
+  "options_page": "options.html"
+}
