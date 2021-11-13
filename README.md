@@ -2,6 +2,12 @@
 
 A simple Chrome extension that reveals any password field found on the current page.
 
+## Demo:
+
+Test it on [this webpage](https://codoxy.github.io/passreveal/)
+
+![](preview.gif)
+
 ## Installation
 
 1. Go to the [releases](https://github.com/codoxy/passreveal/releases/latest), download the `passreveal.crx` file
@@ -9,12 +15,6 @@ A simple Chrome extension that reveals any password field found on the current p
 3. Drag-and-drop the file to that page
 
 I was not able to register as a Chrome Developer (Google didn't accept my card), so it's not available from the Chrome Web Store.
-
-## Demo:
-
-Test it on [this webpage](https://codoxy.github.io/passreveal/)
-
-![](preview.gif)
 
 # Sources
 
