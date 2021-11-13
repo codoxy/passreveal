@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
   </head>
   <body>
-    <div id="buttonDiv">
-    </div>
-    <div>
-      <p>Choose a different background color!</p>
-    </div>
+    <h1>Password Revealer</h1>
+    <p>Set timeout for revealing in seconds.<br>Use 0 for no timeout.</p>
+    <input type="number" value="0" id="timeoutInput">
+    <p id="savedlbl" style="opacity: 0; transition: opacity 0.5s;">Saved!</p>
   </body>
   <script src="options.js"></script>
 </html>

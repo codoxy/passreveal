@@ -1,8 +1,7 @@
-let color = '#3aa757';
+let reveal_timeout = 0;
 
 chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ color });
-  console.log('Default background color set to %cgreen', `color: ${color}`);
+  chrome.storage.sync.set({ reveal_timeout });
 });
 chrome.action.onClicked.addListener((tab) => {
   chrome.scripting.executeScript({
